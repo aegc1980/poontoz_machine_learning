@@ -1,2 +1,14 @@
 __pycache__/
 *.pyc
+
+cat > .gitignore <<'EOF'
+# Ignore virtual environment folder (if it exists)
+venv/
+
+# Ignore Python cache and compiled files
+__pycache__/
+*.py[cod]
+
+# Ignore VS Code settings
+.vscode/
+EOF
